@@ -11,6 +11,7 @@
     align-items: center;
     background: linear-gradient(180deg,#aa1e1e,#1e1818);
     padding: 20px  50px;
+    border-bottom: 4px solid rgb(132, 43, 8);
 }
 .logo {
     display: flex;
@@ -25,9 +26,7 @@
     margin-right: 20px;
 
 }
-.menu {
-    
-}
+
 .menu ul {
     display: flex;
     
@@ -49,4 +48,35 @@
     background: rgb(0, 0, 0);
     color: white;
     box-shadow: 0px 5px 3px #04ffe7;
+}
+
+
+header {
+    background-image: url(img/bg/04.jpg);
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.searchbox-icon {
+    display: flex;
+    justify-content: center;
+    
+}
+.searchbox-icon input {
+    width: 530px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 0 10px ;
+}
+.icon i{
+    background: rgb(4, 191, 33);
+    color: white;
+    font-size: 25px;
+    padding: 8px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: -1px;
 }
