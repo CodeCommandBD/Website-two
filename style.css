@@ -147,5 +147,43 @@ main {
     color: #a4a0a0;
 }
 
-
+.Previous-parents{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
     
+}
+
+.Previous-parents a{
+    text-decoration: none;
+    color: rgb(0, 238, 255);
+    padding: 0 5px;
+
+}
+.Previous-parents h3 {
+    background: #aa3a03;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+    color:  rgb(0, 238, 255);
+}
+.Previous-parents h3:hover {
+     background: #aa3a03a1;
+
+}
+.anchod-mid a{
+    background: white;
+    color: black;
+    padding: 5px 7px;
+    margin: 0 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    transition: 0.5s;
+}
+.anchod-mid a:hover {
+    background: #02ffff;
+    
+    color: #aa3a03;
+    
+}
