@@ -12,6 +12,9 @@
     background: linear-gradient(180deg,#016a8a,#1e1818);
     padding: 20px  50px;
     border-bottom: 4px solid rgba(21, 206, 206, 0.24);
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 .logo {
     display: flex;
@@ -87,6 +90,7 @@ header {
 main {
     background:#02212b;
     padding: 30px 0 0 0;
+    box-sizing: border-box;
 }
 .for-width {
     width: 1300px;
@@ -186,4 +190,57 @@ main {
     
     color: #aa3a03;
     
+}
+
+
+footer {
+    background: #015d62bf;
+    color: white;
+}
+
+.footer-for-width {
+    width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-column-gap: 130px;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    padding: 100px 0 50px 0;
+}
+.first-item h2{
+    padding: 0 0 20px 0;
+    font-size: 30px;
+
+}
+.first-item p {
+    padding-bottom: 20px ;
+}
+
+.second-item h2 {
+    font-size: 30px;
+    padding-bottom: 20px;
+   
+}
+.second-item h4 {
+    padding: 0 0 4px 0;
+}
+.second-item a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.third-item a {
+    background: #00ffc3;    
+    padding: 3px 5px;
+    font-size: 30px;
+    border-radius: 5px;
+    color: #ff5400f2;
+}
+.third-item i {
+    margin-bottom: 20px;
+}
+.third-item h4:nth-child(7) {
+    margin-top: 20px;
+    color: #622000;
 }
