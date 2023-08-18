@@ -7,8 +7,58 @@
     margin: 0;
     padding: 0;
 }
+.nav-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(180deg,#016a8a,#1e1818);
+    padding: 20px  50px;
+    border-bottom: 4px solid rgba(21, 206, 206, 0.24);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo a {
+    text-decoration: none;
+    color: yellow;
+    font-size: 25px;
+}
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+
+}
+
+.menu ul {
+    display: flex;
+    
+    
+}
+.menu ul li {
+    list-style: none;
+    margin-right: 10px;
+}
+.menu ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.menu ul li a:hover {
+    background: rgb(0, 0, 0);
+    color: white;
+    box-shadow: 0px 5px 2px #04ffe7;
+}
 
 
+                        /* blog */
 .artical-area{
     width: 1000px;
     margin: 100px auto;
