@@ -1,0 +1,76 @@
+@font-face {
+    font-family: shanto;
+    src: url(../font/HennyPenny-Regular.ttf);
+} 
+    
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.artical-area{
+    width: 1000px;
+    margin: 100px auto;
+   
+}
+.artical-area > h2 {
+    display: flex;
+    margin: 50px 0;
+    justify-content: center;
+    font-family: shanto;
+    font-size: 50px;
+}
+
+.artical-area .red {
+    color: red;
+}
+.artical-area .blue {
+    color: blue;
+}
+.artical-area .green {
+    color: green;
+    margin-top: 15px;
+}
+.artical-area .orange {
+    color: #8b00ff;
+}
+
+
+.main-div {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+.single-div {
+    box-shadow: 5px 5px 8px gray;
+}
+
+.single-img {
+   
+    height: 400px;
+}
+.single-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.single-text{
+    padding: 20px 10px;
+}
+.single-text h4 {
+    padding-bottom: 20px;
+    color: #069364;
+}
+.single-text h2 {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.single-text a {
+    text-decoration: none;
+    color: #069364;
+}
+.single-text h3 {
+    padding-top: 10px;
+
+}
